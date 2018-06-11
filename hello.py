@@ -9,3 +9,7 @@ def hello():
 @app.route("/tiide")
 def tiide():
     return "Welcome to TIIDE World"
+
+@app.route("/chothet")
+def chothet():
+    return "Cho Cho Thet"
