@@ -13,3 +13,6 @@ def tiide():
 @app.route("/chothet")
 def chothet():
     return "Cho Cho Thet"
+
+if __name__ == "__main__":
+    app.run()
